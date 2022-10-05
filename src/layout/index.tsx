@@ -16,8 +16,10 @@ export default function Layout() {
       <div className="mb-10 ">
         <Navbar sticky height="70px" />
       </div>
+
       <Routes>
-        <Route path="login" element={<Login />} />
+        {!user && <Route path="/" element={<Login />} />}
+        <Route path="/login" element={<Login />} />
         <Route path="register" element={<Register />} />
       </Routes>
     </div>
