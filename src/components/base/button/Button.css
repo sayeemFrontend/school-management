@@ -1,0 +1,8 @@
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button:focus-within {
+  outline: none;
+}

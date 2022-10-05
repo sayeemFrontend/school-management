@@ -1,0 +1,10 @@
+.login .btn-style {
+  width: 160px;
+  height: 50px;
+  background: #c6feab;
+  border: 4px solid #211d1d;
+  box-shadow: inset 0px 0px 4px 3px rgb(0 0 0 / 41%);
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: 800;
+}

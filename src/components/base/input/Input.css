@@ -1,0 +1,28 @@
+.input-wrapper input {
+  background-color: inherit;
+  font-size: inherit;
+  color: inherit;
+  flex-grow: 1;
+  padding: 0 8px;
+}
+.input-wrapper input:focus-within {
+  outline: none;
+}
+.input-wrapper input::placeholder {
+  opacity: 0.7;
+}
+
+.input-wrapper .input-field {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  background-color: inherit;
+  color: inherit;
+  font-size: inherit;
+}
+
+.input-wrapper .input-field img {
+  width: auto;
+  height: 100%;
+}

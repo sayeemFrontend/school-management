@@ -1,0 +1,18 @@
+.switch span {
+  width: auto;
+  height: 260%;
+  aspect-ratio: 1/1;
+  position: absolute;
+  top: 50%;
+  background: #ebe9d9;
+  border: 2px solid black;
+  border-radius: 100%;
+  transform: translateY(-50%);
+}
+.switch .left {
+  left: -4px;
+}
+
+.switch .right {
+  right: -4px;
+}
